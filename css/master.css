@@ -1,11 +1,10 @@
 body {
-  background: red;
+  columns: 2;
 }
 
 /*smartphones mobiles (portrait)*/
 @media (max-width: 480px) {
  body {
-   background: blue;
    color : green;
  }
 }
@@ -13,15 +12,13 @@ body {
 /*low resolution tablets, mobiles (landscape)*/
 @media (min-width: 481px) and (max-width: 767px) {
   body {
-    background: green;
-    color: yellow;
+    color: brown;
   }
 }
 
 /*tablets, ipads (landscape)*/
 @media (min-width: 768px) and (max-width: 1024px) {
   body {
-    background: yellow;
     color: black;
   }
 }
@@ -29,7 +26,6 @@ body {
 /*laptops, desktops*/
 @media (min-width: 1025px) and (max-width: 1280px) {
   body {
-    background: black;
     color : blue;
   }
 }
@@ -37,10 +33,7 @@ body {
 /*desktops - higher resolution*/
 @media (min-width: 1281px) {
   body {
-    background: rebeccapurple;
+    background: purple;
     color : #fff;
-  }
-  .example-five {
-    display: block;
   }
 }
