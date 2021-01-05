@@ -42,8 +42,7 @@ h3 {
 /*desktops - higher resolution*/
 @media (min-width: 1281px) {
   body {
-    background: purple;
-    color : #fff;
+    color : orange;
   }
 }
 h3 {
