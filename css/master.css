@@ -1,7 +1,16 @@
-body {
-  columns: 2;
+article {
+          columns: 4 200px;
 }
-
+h2 {
+          column-span: all;
+          font-size: 24px;
+          line-height: 2;
+}
+h3 {
+          column-span: all;
+          font-size: 24px;
+          line-height: 2;
+}
 /*smartphones mobiles (portrait)*/
 @media (max-width: 480px) {
  body {
@@ -36,4 +45,9 @@ body {
     background: purple;
     color : #fff;
   }
+}
+h3 {
+  color: black;
+  font-size: 64px;
+  line-height: 2;
 }
