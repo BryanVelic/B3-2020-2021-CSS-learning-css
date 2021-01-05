@@ -2,13 +2,6 @@ body {
   background: red;
 }
 
-.example-two,
-.example-three,
-.example-four,
-.example-five {
-  display: none;
-}
-
 
 /*smartphones mobiles (portrait)*/
 @media (max-width: 480px) {
