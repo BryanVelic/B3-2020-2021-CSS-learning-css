@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Fraunces&family=Hachi+Maru+Pop&family=Lato&family=Potta+One&family=Roboto&family=Yusei+Magic&display=swap');
 
 article {
+          margin: 20px 80px;
           columns: 4 200px;
 }
 h1,h2,h3,h4 {
@@ -18,7 +19,7 @@ h3 {
 }
 h3 {
   color: black;
-  font-size: 64px;
+  font-size: 48px;
   line-height: 2;
 }
 /*smartphones mobiles (portrait)*/
@@ -55,7 +56,7 @@ h3 {
 /*laptops, desktops*/
 @media (min-width: 1025px) and (max-width: 1280px) {
   body {
-    color : blue;
+    color : red;
     font-size: 22px;
     font-family: Yusei Magic, sans-serif;
   }
@@ -102,4 +103,8 @@ nav a:hover{
     color: orange;
     border-bottom: 2px solid gold;
 }
+}
+#en-cours {
+  color: blue;
+  border-bottom: 2px solid blue;
 }
