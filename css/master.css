@@ -22,52 +22,13 @@ h3 {
   font-size: 48px;
   line-height: 2;
 }
-/*smartphones mobiles (portrait)*/
-@media (max-width: 480px) {
- body {
-   color : green;
-   font-size: 14px;
-   font-family: Roboto, sans-serif;
- }
-}
-
-/*low resolution tablets, mobiles (landscape)*/
-@media (min-width: 481px) and (max-width: 767px) {
-  body {
-    color: brown;
-    font-size: 18px;
-    font-family: Lato, sans-serif;
-  }
-}
-
-/*tablets, ipads (landscape)*/
-@media (min-width: 768px) and (max-width: 1024px) {
-  body {
-    color: black;
-    font-size: 20px;
-    font-family: Fraunces, sans-serif;
-  .menu {
-      text-decoration: none;
-      display: inline;
-    }
-  }
-}
-
-/*laptops, desktops*/
-@media (min-width: 1025px) and (max-width: 1280px) {
-  body {
-    color : red;
-    font-size: 22px;
-    font-family: Yusei Magic, sans-serif;
-  }
-}
-
-/*desktops - higher resolution*/
-@media (min-width: 1281px) {
-  body {
-    color : orange;
-    font-size: 24;
-    font-family: Hachi Maru Pop, sans-serif;
+body {
+  color: black;
+  font-size: 20px;
+  font-family: Roboto, sans-serif;
+.menu {
+    text-decoration: none;
+    display: inline;
   }
 }
 /*desktops*/
@@ -124,9 +85,28 @@ nav a:hover{
   flex-shrink: 0;
 }
 
-.ressource-list-item > figure > img{
+div > figure > img{
   float: left;
   margin-right: 0.5rem;
   border-radius: 50%;
   max-width: 50%;
+}
+
+
+* {
+  box-sizing : border-box;
+}
+
+
+.grid {
+  display : grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 2fr));
+  grid-auto-rows : 320px;
+  grid-column-gap : 50px;
+  grid-row-gap : 50px;
+}
+
+.grid > div{
+  margin:50px;
+  padding: 20px;
 }
