@@ -69,7 +69,7 @@ nav a:hover{
   color: blue;
   border-bottom: 2px solid blue;
 }
-.ressource-list {
+/* .ressource-list {
   max-width: var(--grid-flex-max-width);
   margin: 0 auto;
   list-style-type: none;
@@ -78,6 +78,7 @@ nav a:hover{
   justify-content: space-evenly;
   padding:1rem;
 }
+*/
 
 .ressource-list > * {
   flex-basis: 320px;
@@ -104,9 +105,4 @@ div > figure > img{
   grid-auto-rows : 320px;
   grid-column-gap : 50px;
   grid-row-gap : 50px;
-}
-
-.grid > div{
-  margin:50px;
-  padding: 20px;
 }
